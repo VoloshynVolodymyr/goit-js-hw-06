@@ -21,13 +21,4 @@ const setOfGalleryElements = images.map
 </li>`).join("");
 startPointOfGallery.insertAdjacentHTML('afterBegin', setOfGalleryElements);
 
-// for (let i = 0; i < images.length; i++) {
-//   const itemLi = document.createElement("li");
-//   itemLi.classList.add("gallery-list")
-//   let string = `<img src=${images[i].url}
-//  alt=${images[i].alt}>`;
-//  itemLi.insertAdjacentHTML('afterBegin', string);
-//  galleryArray[i] = itemLi;
-//  console.log(galleryArray[i]);
-// }
-// list.append(...galleryArray);
+

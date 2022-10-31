@@ -9,8 +9,5 @@ textInput.addEventListener("blur", () =>
     {textInput.classList.add("invalid");
     textInput.classList.remove("valid");}
   });
-// console.log(textInput.dataset.length);
-//   console.log(textInput.id);
-// console.log(textInput.data-length);
-// console.log(textInput.placeholder);
-console.log(textInput.dataset);
+
+// console.log(textInput.dataset);
