@@ -9,8 +9,15 @@ const {
 
 if (email.value === "" || password.value === "") 
 return alert("All fields must be fIlled");
+else {
+  const resultObject = {
+    resultEmail : event.currentTarget.elements.email.value,
+    resultPassword : event.currentTarget.elements.password.value,
+  }
+  console.log(resultObject);
+}
 
-console.log(`Email: ${email.value}, password: ${password.value}`);
   event.currentTarget.reset();
   }
 )
+
